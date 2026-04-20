@@ -15,11 +15,12 @@ Bu proje, siber güvenlikte pasif keşif aşamasında kullanılan Google Dorking
 - Go (Golang) 1.20+
 - Standart kütüphaneler (`net/http`, `html/template`)
 
-## Çalıştırma
+## Kullanım Adımları
 
-```bash
-go run main.go
-```
+1. **Derleme:** `go build main.go` komutu ile executable dosya oluşturulur (veya doğrudan `go run main.go` ile çalıştırılır).
+2. **Erişim:** Tarayıcıdan `http://localhost:8080` adresine gidilir.
+3. **Analiz:** Arama çubuğuna hedef domain (örn: `google.com`) yazılır ve butona tıklanır.
+4. **Sonuçlar:** Kategorize edilmiş sekmelerden ilgili sorguların yanındaki "Google'da Ara" butonuna basılarak canlı sonuçlar incelenir.
 
 
 
@@ -43,7 +44,9 @@ This project is a web-based tool that automates Google Dorking operations, one o
 - Go (Golang) 1.20+
 - Standard libraries (`net/http`, `html/template`)
 
-## How to Run
+## Usage Steps
 
-```bash
-go run main.go
+1. **Build:** Create an executable file with `go build main.go` (or run directly with `go run main.go`).
+2. **Access:** Go to `http://localhost:8080` in your browser.
+3. **Analyze:** Enter the target domain (e.g., `google.com`) in the search box and click the button.
+4. **Results:** Click the "Search on Google" button next to the relevant queries in the categorized sections to view live results.
