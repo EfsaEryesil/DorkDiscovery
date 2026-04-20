@@ -20,7 +20,7 @@ Bu proje, siber güvenlikte pasif keşif aşamasında kullanılan Google Dorking
 1. **Derleme:**  `go run main.go` ile çalıştırılır.
 2. **Erişim:** Tarayıcıdan `http://localhost:8080` adresine gidilir.
 3. **Analiz:** Arama çubuğuna hedef domain (örn: `google.com`) yazılır ve butona tıklanır.
-4. **Sonuçlar:** Kategorize edilmiş sekmelerden ilgili sorguların yanındaki "Google'da Ara" butonuna basılarak canlı sonuçlar incelenir.
+4. **Sonuçlar:** Kategorize edilmiş sekmelerden ilgili sorguların altındaki "GOOGLE'DA GÖSTER" butonuna basılarak canlı sonuçlar incelenir.
 
 
 
@@ -49,4 +49,4 @@ This project is a web-based tool that automates Google Dorking operations, one o
 1. **Build:**  Run directly with `go run main.go`.
 2. **Access:** Go to `http://localhost:8080` in your browser.
 3. **Analyze:** Enter the target domain (e.g., `google.com`) in the search box and click the button.
-4. **Results:** Click the "Search on Google" button next to the relevant queries in the categorized sections to view live results.
+4. **Results:** Click the "Search on Google" button under the relevant queries in the categorized sections to view live results.
