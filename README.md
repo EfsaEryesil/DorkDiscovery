@@ -24,10 +24,10 @@ go run main.go
 
 
 
+---
 
 
-
-# DorkDiscovery
+# DorkDiscovery (English)
 This project is a web-based tool that automates Google Dorking operations, one of the most critical tools in the passive reconnaissance phase of cybersecurity. It generates 55 different dork queries for a target domain provided by the user and allows one-click searching on Google.
 
 ## Features
